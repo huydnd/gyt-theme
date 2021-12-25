@@ -1,0 +1,32 @@
+{
+    "name": "gyt-theme",
+    "displayName": "Gyt Theme",
+    "description": "",
+    "version": "1.0.0",
+    "publisher": "Gyt",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/huydnd/gyt-theme.git"
+    },
+    "keywords": [
+        "theme",
+        "gyt",
+        "chocolate theme",
+        "brown theme"
+    ],
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gyt Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Gyt Theme-color-theme.json"
+            }
+        ]
+    }
+}
